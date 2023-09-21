@@ -10,8 +10,7 @@ public class StudentGradeCalculator {
         int Total_Marks=0;
         float average_marks;
         char grade;
-        int i=0;
-        for(;i<sub;i++){
+        for(int i=0;i<sub;i++){
             System.out.print("Enter marks of Subject "+count+" out of 100 :");
             int mark=sc.nextInt();
             if(mark>=0 && mark<101){
